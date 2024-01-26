@@ -1,4 +1,4 @@
-## Titanic_dataset
+## dataset
 
 - [Titanic_dataset](https://github.com/yojulab/study_data_analytics/blob/main/datasets/TitanicFromDisaster_test.csv)
 
