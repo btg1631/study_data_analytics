@@ -14,21 +14,19 @@ df_SSL["BMI"] = df_SSL[["체중", "신장"]].apply(BMI, axis=1)
 print(df_SSL["BMI"])
 pass
 
+def time(x):
+    try:
+        hour = int(x // 60) # 시간
+        minute = int(x % 60) # 분
 
-def hour(x):
-    hour = x // 60 # 시간
-    return hour
-    
-def minute(x):
-    minute = x % 60 # 분
-    return minute
-    
-df_SSL["hour"] = df_SSL[["수술시간"]].apply(hour, axis=1)
-df_SSL["minute"] = df_SSL[["수술시간"]].apply(minute, axis=1)
+        time = f"{hour}:{minute}"
+        return pd.to_datetime(f"{time}", format="%H:%M")
 
-# Cannot convert non-finite values (NA or inf) to integer
-df_SSL["hour"] = df_SSL["hour"].fillna(0).astype(int)
-df_SSL["minute"] = df_SSL["minute"].fillna(0).astype(int)
+    except:
+        pass
 
-print(df_SSL[["hour", "minute"]])
+df_SSL["수술시간_time"] = df_SSL[["수술시간"]].apply(time, axis=1)
+df_SSL["수술시간_time"] = df_SSL["수술시간_time"].dt.time
+
+print(df_SSL["수술시간_time"])
 pass
