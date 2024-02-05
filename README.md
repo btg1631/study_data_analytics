@@ -79,6 +79,12 @@
 |51|척추전방위증|척추의 사진에서 전방위증을 발견한 경우의 수준을 나타내는 지표|없음 또는 해당 위치|0, 1|범주형|
 </details>
 
+## ☑ 사용기술
+<img alt="이미지명" src ="https://img.shields.io/badge/PYTHON-3776AB.svg?&style=for-the-badge&logo=PYTHON&logoColor=white"/>
+<img alt="이미지명" src ="https://img.shields.io/badge/visual studio code-007ACC.svg?&style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+<img alt="이미지명" src ="https://img.shields.io/badge/google colab-F9AB00.svg?&style=for-the-badge&logo=googlecolab&logoColor=white"/>
+
+
 
 ## 💻 Pandas
 |*|제목|code|설명|비고|
@@ -124,5 +130,12 @@
 |2|[preprocessing_titanic_train](./docs/quests/EDAs/preprocessing_titanic_train.ipynb)|문제 풀기|[문제](https://docs.google.com/document/d/19zaaxXw1-Px4e1bKmit6h233myLWJKaeqFf-rfsKJw0/edit)|
 |3|[EDA_LetalCarOfContractType](./docs/quests/EDAs/EDA_LetalCarOfContractType.ipynb)|제안 3: 연체 위험도 예측|[csv](./docs/csv/LetalCarOfContractType.csv)|
 |4|[EDA_ShoppingMallDeliveryWithDate](./docs/quests/EDAs/EDA_ShoppingMallDeliveryWithDate.ipynb)|제안 8: 주문량 변동성 분석 및 예측|[csv](./docs/csv/ShoppingMallDeliveryWithDate.csv)|
-|5|[EDA_kaggle_air_quality_in_covid19](./docs/quests/EDAs/)|제안1 : 공기 질 지표의 시간별 변화 분석|[csv](https://www.kaggle.com/datasets/aestheteaman01/air-quality-across-countries-in-covid19)|
+|5|[EDA_kaggle_air_quality_in_covid19](./docs/quests/EDAs/)|!!!!!제안1 : 공기 질 지표의 시간별 변화 분석|[csv](https://www.kaggle.com/datasets/aestheteaman01/air-quality-across-countries-in-covid19)|
+
+## 💻 CDA(Confirmatory Data Analysis) 확증 데이터 분석
+- 규명하고자 하는 바를 가설로 수립하여, 해당 가설이 참인지 거짓인지 객관적인 수치로 규명, 유의 수준 ( 5% / 0.05 )
+
+|*|code|설명|비고|
+|--|--|--|--|
+
 
