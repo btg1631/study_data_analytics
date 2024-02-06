@@ -80,9 +80,7 @@
 </details>
 
 ## ☑ 사용기술
-<img alt="이미지명" src ="https://img.shields.io/badge/PYTHON-3776AB.svg?&style=for-the-badge&logo=PYTHON&logoColor=white"/>
-<img alt="이미지명" src ="https://img.shields.io/badge/visual studio code-007ACC.svg?&style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
-<img alt="이미지명" src ="https://img.shields.io/badge/google colab-F9AB00.svg?&style=for-the-badge&logo=googlecolab&logoColor=white"/>
+<img alt="이미지명" src ="https://img.shields.io/badge/PYTHON-3776AB.svg?&style=for-the-badge&logo=PYTHON&logoColor=white"/> <img alt="이미지명" src ="https://img.shields.io/badge/visual studio code-007ACC.svg?&style=for-the-badge&logo=visualstudiocode&logoColor=white"/> <img alt="이미지명" src ="https://img.shields.io/badge/google colab-F9AB00.svg?&style=for-the-badge&logo=googlecolab&logoColor=white"/>
 
 
 
@@ -135,7 +133,13 @@
 ## 💻 CDA(Confirmatory Data Analysis) 확증 데이터 분석
 - 규명하고자 하는 바를 가설로 수립하여, 해당 가설이 참인지 거짓인지 객관적인 수치로 규명, 유의 수준 ( 5% / 0.05 )
 
+![정형데이터 통계 검증도](./docs/structureddata_test_diagrams.drawio.png)
+
 |*|code|설명|비고|
 |--|--|--|--|
+|1|[CDA_categorical](./docs/quests/CDAs/CDA_categorical.ipynb)|X(범주형) / Y(범주형) 케이스||
+|2|[CDA_continuous](./docs/quests/CDAs/CDA_continuous.ipynb)|X(연속형) / Y(연속형) 케이스||
+|3|[CDA_mixed_Var](./docs/quests/CDAs/CDA_mixed_Var.ipynb)|범주형 / 연속형이고 등분산인 경우||
+|4|[CDA_mixed_unVar](./docs/quests/CDAs/CDA_mixed_unVar.ipynb)|범주형 / 연속형이고 이분산인 경우||
 
 
