@@ -108,7 +108,7 @@
 
 
 
-# 📈 quests
+# 📚 quests
 ## 💻 DDA(Descriptive Data Analysis) 묘사 데이터 분석
 - 통계 관점으로 특성 확인(현재 모습 요약) : 평균, 표준편차, 빈도수, 백분위수 등
 
