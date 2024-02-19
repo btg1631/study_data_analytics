@@ -6,9 +6,9 @@
 
 |*|Variable|Definition|Key|분석가 의견|
 |--|--|--|--|--|
-|1||PassengerId|승객 unique id||수치형|
-|2||Pclass|티켓의 클래스|1, 2, 3|범주형(순서형)|
-|3||Name|이름||범주형|
+|1|PassengerId|승객 unique id||수치형|
+|2|Pclass|티켓의 클래스|1, 2, 3|범주형(순서형)|
+|3|Name|이름||범주형|
 |4|Sex|성별|male, female|범주형|
 |5|Age|나이||수치형|
 |6|SibSp|함께 탑승한 형제자매, 배우자의 수|0, 1, 2, 3, 4, 5, 8|수치형|
