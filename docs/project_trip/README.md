@@ -92,3 +92,25 @@
 </details>
 
 
+## 📚 [MLs](./MLs.ipynb)
+<details open> 
+  <summary>MLs</summary>
+
+```
+- 목표변수(target) : consumption_amount 소비량
+- 설명변수(features) : industry_major_cate 카테고리, region 지역, std_year 년도, std_month 월
+- 미래의 소비량을 예측
+```
+</details>
+
+
+## 📚 [NLPs](./NLPs.ipynb)
+<details open> 
+  <summary>NLPs</summary>
+
+```
+- 블로그 제목 데이터를 이용, 지역별 워드클라우드 생성
+- LDA 이용 토픽 분석
+
+```
+</details>
