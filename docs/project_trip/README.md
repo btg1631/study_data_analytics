@@ -177,6 +177,16 @@ KruskalResult(statistic=4078.9999999999995, pvalue=0.0)
 - 미래의 소비량을 예측
 ```
 ```
+- Label Encoding
+각 범주형 값에 연속적인 정수를 부여하는 방법
+연도나 월 같이 순서 또는 크기가 있고, 숫자 간의 관계를 고려해야 할 때 적합
+std_year 년도, std_month 월
+
+- Feature Importance Encoding
+각 범주형 변수가 목표 변수에 미치는 영향력을 고려하여 인코딩하는 방법
+industry_major_cate 카테고리, region 지역
+```
+```
 선형 회귀(Linear Regression)
 ✔ 결정 트리 회귀 (Decision Tree Regression)
 랜덤 포레스트 회귀 (Random Forest Regression)
@@ -185,10 +195,10 @@ KruskalResult(statistic=4078.9999999999995, pvalue=0.0)
 
 [모델 평가]
 - MSE - 평균 제곱 오차 / 모델이 예측한 값과 실제 값 사이의 차이를 제곱한 후 평균을 구한 값
-- Mean Squared Error (MSE): 520010261406512.0
+- Mean Squared Error (MSE): 495008521006880.8
 
 - MAE - 평균 절대 오차 / 모델이 예측한 값과 실제 값 사이의 절대값 차이를 평균화한 값
-- Mean Absolute Error (MAE): 6079128.90781387
+- Mean Absolute Error (MAE): 5733668.298507462
 
 - 0에 가까울 수록 모델의 예측이 정확함
 - 결과 : 모델의 예측이 매우 부정확함. 특정한 상황을 고려할 필요가 있으며, 추가적인 분석과 확인을 통해 모델의 성능을 향상시킬 수 있음.
