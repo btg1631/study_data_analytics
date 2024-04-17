@@ -178,12 +178,12 @@ KruskalResult(statistic=4078.9999999999995, pvalue=0.0)
 ```
 ```
 [범주형 변수 인코딩]
-- Label Encoding
+- Label Encoding 
 각 범주형 값에 연속적인 정수를 부여하는 방법
 연도나 월 같이 순서 또는 크기가 있고, 숫자 간의 관계를 고려해야 할 때 적합
 std_year 년도, std_month 월
 
-- Feature Importance Encoding
+- Feature Importance Encoding 변수 중요도 기반 인코딩
 각 범주형 변수가 목표 변수에 미치는 영향력을 고려하여 인코딩하는 방법
 - cda에서 지역에 따라 차이가 있다는 결과가 나왔으므로
 industry_major_cate 카테고리, region 지역
