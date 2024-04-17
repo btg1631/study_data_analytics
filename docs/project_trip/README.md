@@ -185,6 +185,7 @@ std_year 년도, std_month 월
 
 - Feature Importance Encoding
 각 범주형 변수가 목표 변수에 미치는 영향력을 고려하여 인코딩하는 방법
+- cda에서 지역에 따라 차이가 있다는 결과가 나왔으므로
 industry_major_cate 카테고리, region 지역
 ```
 ```
