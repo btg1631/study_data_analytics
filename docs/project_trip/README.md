@@ -210,16 +210,22 @@ KruskalResult(statistic=4078.9999999999995, pvalue=0.0)
 ```
 #### 제주
 ![wordcloud_jeju](./images/wordcloud_jeju.png)
+- 서귀포, 여행, 맛집, 자연, 공원, 명소, 코스
 #### 대전
 ![wordcloud_daejeon](./images/wordcloud_daejeon.png)
+- 공원, 카페, 맛집, 마을, 산책 풍경, 명소
 #### 울산
 ![wordcloud_ulsan](./images/wordcloud_ulsan.png)
+- 공원, 산책, 아이, 놀이터, 도서관, 문화, 장생포
 #### 경기
 ![wordcloud_gyeonggi](./images/wordcloud_gyeonggi.png)
+- 경기, 공원, 카페, 코스, 근교, 명소, 체험
 #### 서울
 ![wordcloud_seoul](./images/wordcloud_seoul.png)
+- 여행, 문화, 명소, 공원, 코스, 전시, 벚꽃, 축제
 #### 강원
 ![wordcloud_gangwon](./images/wordcloud_gangwon.png)
+- 강원, 여행, 축제, 자연, 추천, 겨울, 숲, 바다
 
 
 ---
