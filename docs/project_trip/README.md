@@ -178,7 +178,7 @@ KruskalResult(statistic=4078.9999999999995, pvalue=0.0)
 ```
 ```
 선형 회귀(Linear Regression)
-결정 트리 회귀 (Decision Tree Regression)
+✔ 결정 트리 회귀 (Decision Tree Regression)
 랜덤 포레스트 회귀 (Random Forest Regression)
 서포트 벡터 머신 회귀 (Support Vector Machine Regression)
 그라디언트 부스팅 회귀 (Gradient Boosting Regression)
